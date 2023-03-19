@@ -1,0 +1,11 @@
+.back{
+    width: 60%;
+    
+}
+
+.back_images{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+}

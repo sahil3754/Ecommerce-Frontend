@@ -1,0 +1,80 @@
+<!-- <div class="py-16 my-5"
+    style="background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );">
+    <div class="flex justify-center flex-col items-center">
+        <div>
+            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-full w-32" alt="Avatar" />
+        </div>
+
+        <div>
+
+
+            <div class=" relative pt-5">
+                <label for="name-with-label" class="text-gray-700">
+                    Full Name
+                </label>
+                <input type="text" id="name-with-label"
+                    class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    name="email" [(ngModel)]="UserData[0].user_Name"  />
+            </div>
+            <div class=" relative pt-5">
+                <label for="name-with-label" class="text-gray-700">
+                    Email
+                </label>
+                <input type="text" id="name-with-label"
+                    class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    name="email" [(ngModel)]="UserData[0].email_Id"  />
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div> -->
+
+
+
+
+
+
+<div class="flex justify-center my-10 w-full">
+
+
+    
+<div class="shadow-lg rounded-2xl back bg-white h-fit pb-4">
+    <img alt="profil" src="https://images.pexels.com/photos/839462/pexels-photo-839462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded-t-lg  back_images  "/>
+    <div class="flex flex-col items-center justify-center p-4 -mt-24">
+        <a href="#" class="block relative">
+            <img alt="profil" src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="mx-auto object-cover rounded-full h-36 w-fit  border-2 border-white "/>
+        </a>
+        <p class="text-gray-800  text-2xl font-medium mt-2  uppercase tracking-widest">
+           {{get_name()}}
+        </p>
+        <p class="text-gray-400 text-xs mb-4">
+           {{get_email()}}
+        </p>
+        <p class="text-xs p-2 bg-pink-500 text-white px-4 rounded-full uppercase tracking-widest cursor-pointer" (click)="logout()">
+            Log Out
+        </p>
+        <!-- <p class="text-xs p-2 bg-orange-600 text-white px-4 rounded-full uppercase tracking-widest cursor-pointer mt-5">
+              Log out
+        </p> -->
+        <!-- <div class="rounded-lg p-2 w-full mt-24">
+            <div class="flex items-center justify-between text-sm text-gray-600">
+                <p class="flex flex-col">
+                    Email
+                    <span class="text-black  font-bold">
+                        sahilkushwah002@gmail.com
+                    </span>
+                </p>
+                
+            </div>
+        </div> -->
+    </div>
+</div>
+
+
+
+
+
+</div>

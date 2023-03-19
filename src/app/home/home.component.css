@@ -1,0 +1,67 @@
+.back_1{
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 23rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('/assets/category_1.webp');
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: smaller;
+    
+}
+.back_2{
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 23rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url('/assets/category_2.webp');
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+.back_3{
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 23rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url('/assets/category_3.webp');
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: smaller;
+    
+}
+
+
+
+
+
+@media(max-width:640px){
+    .back_1{
+        width: 75%;
+        margin-bottom: 5rem;
+        margin-left: 2.5rem;
+    }
+
+    .back_2{
+        width: 75%;
+        margin-bottom: 5rem;
+        
+        
+    }
+    .back_3{
+        width: 75%;
+        margin-bottom: 5rem;
+        
+    }
+}
+

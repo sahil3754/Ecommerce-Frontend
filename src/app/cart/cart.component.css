@@ -1,0 +1,21 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+th {
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-weight: 500;
+    font-size: small;
+}
+
+td {
+    padding: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: small;
+}
